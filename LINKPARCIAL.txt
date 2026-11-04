@@ -11,3 +11,5 @@ if($cantidadProcesos -gt $numerolimite -and $cantidadProcesos -lt 500){
 
 Write-Host "Version de PowerShell:"
 $psversiontable
+
+LINK: https://github.com/MaryNieva/Parcial-Programacion-para-Seguridad-informatica/blob/main/LINKPARCIAL.txt
