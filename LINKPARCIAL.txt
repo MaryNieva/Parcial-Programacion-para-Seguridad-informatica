@@ -1,0 +1,13 @@
+$procesos = Get-Process
+$cantidadProcesos =$procesos.Count
+[int]$numerolimite = Read-Host "Número limite:"
+
+if($cantidadProcesos -gt $numerolimite -and $cantidadProcesos -lt 500){
+	Write-Host "Cantidad de procesos $cantidadProcesos es mayor que $numerolimite y menor que 500"
+}else{
+	Write-Host "Cantidad de procesos: $cantidadProcesos. Número limite: $numerolimite"
+}
+
+
+Write-Host "Version de PowerShell:"
+$psversiontable
